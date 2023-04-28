@@ -1,0 +1,6 @@
+on: Push
+jobs:
+  first-jobs:
+    runs-on: windows-latest
+    steps:
+      -run: node -v
