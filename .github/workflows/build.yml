@@ -3,4 +3,6 @@ jobs:
   first-job:
     runs-on: windows-latest
     steps:
-      - run: node --version
+      - uses: action/checkout@v3
+      - run: npx eslint index.js
+      - run: node index.js

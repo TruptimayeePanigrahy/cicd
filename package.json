@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TruptimayeePanigrahy/cicd/issues"
   },
-  "homepage": "https://github.com/TruptimayeePanigrahy/cicd#readme"
+  "homepage": "https://github.com/TruptimayeePanigrahy/cicd#readme",
+  "dependencies": {
+    "eslint": "^8.39.0"
+  }
 }
